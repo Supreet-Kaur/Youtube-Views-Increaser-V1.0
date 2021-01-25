@@ -4,11 +4,11 @@ import time
 
 
 
-url =  input("Enter the video url ")
+url =  input("https://www.youtube.com/watch?v=olquo9bHEDE&feature=youtu.be&ab_channel=AshishThind")
 
-refreshrate = input("Enter the refresh rate in seconds")
+refreshrate = input("120")
 
-browserr = input("Enter your default browser name")
+browserr = input("Google chrome")
 
 
 def letsdoit():
@@ -16,6 +16,6 @@ def letsdoit():
     webbrowser.open(url)
     time.sleep(int(refreshrate))
 
-views = input("How many views you want")
+views = input("10")
 for i in range(int(views)+1):
     letsdoit()
